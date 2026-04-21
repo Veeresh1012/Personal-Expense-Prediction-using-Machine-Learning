@@ -1,53 +1,47 @@
-💸 Personal Expense Prediction
+# Personal Expense Prediction
 
-A machine learning project that predicts monthly personal expenses across different categories like food, transport, shopping, and more — based on your income, month, year, and festival count.
+## Overview
+This project predicts monthly personal expenses across different categories using a machine learning model. It takes inputs such as income, month, year, and festival count to estimate spending patterns and potential savings.
 
 ---
 
-📦 Features
-
+## Features
 - Predicts expenses in 9 categories:
-  - 🍽️ Food  
-  - 🛒 Groceries  
-  - 🚌 Transport  
-  - 🎬 Entertainment  
-  - 🛍️ Shopping  
-  - 🏠 Rent  
-  - 💡 Bills  
-  - 🏥 Healthcare  
-  - 🎓 Education
-- Estimates total monthly expense for each category and calculates the savings
-- Visualizations with bar charts and heatmaps
+  - Food  
+  - Groceries  
+  - Transport  
+  - Entertainment  
+  - Shopping  
+  - Rent  
+  - Bills  
+  - Healthcare  
+  - Education  
+- Calculates total monthly expenses and estimated savings  
+- Provides visualizations using bar charts and heatmaps  
 
 ---
 
-🧠 Technologies
-
-- Python 
-- Libraries: pandas, numpy, seaborn, matplotlib, scikit-learn
-- ML model: Random Forest Regressor
-
----
-
-🚀 How to Run
-
-1. Install Python
-2. Install dependencies
-3. pip install -r requirements.txt
-4. Open `expense_predictor.ipynb` in Jupyter Notebook
-5. Run the cell
+## Tech Stack
+- Python  
+- pandas, numpy  
+- seaborn, matplotlib  
+- scikit-learn  
 
 ---
 
-📁 Files
-
-- `expense_predictor.ipynb`: Notebook with all code (better for visualizations)
-- `expense_predictor.py`: Also contains the code in .py format
-- `personal_expense_dataset.csv`: Dataset used for training
-- `requirements.txt`: Required libraries
+## Model
+- Algorithm: Random Forest Regressor  
+- Type: Regression model  
+- Input Features:
+  - Income  
+  - Month  
+  - Year  
+  - Festival count  
+- Output:
+  - Predicted expenses for each category  
 
 ---
 
-🙋‍♀️ Author
-
-PRACHI UDAY JAKATI
+## How to Run
+1. Install Python  
+2. Install dependencies:
